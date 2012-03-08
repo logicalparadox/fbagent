@@ -1,0 +1,26 @@
+{
+  "author": "Jake Luer <jake@alogicalparadox.com>",
+  "name": "fbagent",
+  "description": "Thin, stateless Facebook Graph wrapper.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/logicalparadox/fbagent.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "superagent": "0.4.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "chai-http": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
