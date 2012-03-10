@@ -1,4 +1,12 @@
 
+0.1.0 / 2012-03-10 
+==================
+
+  * refactor response parsing
+  * clean up Facebook#end
+  * added debug statements
+  * comment update
+
 0.0.2 / 2012-03-08 
 ==================
 
