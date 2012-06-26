@@ -12,8 +12,8 @@
     "test": "make test"
   },
   "dependencies": {
-    "superagent": "0.4.x",
-    "debug": "0.5.x"
+    "superagent": "0.5.x",
+    "debug": "*"
   },
   "devDependencies": {
     "mocha": "*",
