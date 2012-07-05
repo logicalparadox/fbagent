@@ -1,0 +1,10 @@
+.git*
+support/
+test/
+examples/
+benchmarks/
+.DS_Store
+coverage.html
+lib-cov
+.travis.yml
+Makefile
