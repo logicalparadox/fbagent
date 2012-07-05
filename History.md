@@ -1,4 +1,13 @@
 
+0.2.0 / 2012-07-04 
+==================
+
+  * Merge branch 'bug/postgraph'
+  * update project ignore settings, add test config sample
+  * increase test timeout
+  * tests for posts/deletes
+  * improved send merge support, comply with fb post specifications
+
 0.1.1 / 2012-06-26 
 ==================
 
