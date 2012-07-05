@@ -4,7 +4,8 @@ REPORTER = spec
 
 test:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
-		--reporter $(REPORTER)
+		--reporter $(REPORTER) \
+		--timeout 10000
 		$(TEST)
 
 test-cov: lib-cov
