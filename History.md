@@ -1,4 +1,10 @@
 
+0.3.0 / 2012-07-25 
+==================
+
+  * tweak request end to properly handle access tokens with get vs. post
+  * update superagent to 0.6.x
+
 0.2.0 / 2012-07-04 
 ==================
 
