@@ -2,7 +2,7 @@
   "author": "Jake Luer <jake@alogicalparadox.com>",
   "name": "fbagent",
   "description": "Thin, stateless Facebook Graph wrapper.",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/logicalparadox/fbagent.git"

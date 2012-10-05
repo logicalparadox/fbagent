@@ -1,4 +1,17 @@
 
+0.4.0 / 2012-10-05 
+==================
+
+  * updated readme
+  * properly request app access token for creating test users
+  * increase test timeout
+  * update superagent dep
+  * Release 0.3.1
+  * update superagent dep
+  * Release 0.3.0
+  * tweak request end to properly handle access tokens with get vs. post
+  * update superagent to 0.6.x
+
 0.3.1 / 2012-08-07 
 ==================
 
