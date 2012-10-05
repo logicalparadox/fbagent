@@ -25,12 +25,27 @@ describe('fbagent', function () {
   });
 
   describe('tokened request', function () {
-    var testUser;
+    var testUser
+      , appToken;
+
+    before(function (done) {
+      fbagent
+        .get('/oauth/access_token')
+        .send({
+            client_id: config.appId
+          , client_secret: config.appSecret
+          , grant_type: 'client_credentials'
+        })
+        .end(function (err, res) {
+          appToken = res.access_token;
+          done();
+        });
+    });
 
     it('can create a test user', function (done) {
       fbagent
         .get(config.appId + '/accounts/test-users')
-        .token(config.appId + '|' + config.appSecret)
+        .token(appToken)
         .send({
             installed: true
           , name: 'Rory Williams'
@@ -70,7 +85,7 @@ describe('fbagent', function () {
     it('can delete a protected resource', function (done) {
       fbagent
         .del('/' + testUser.id)
-        .token(config.appId + '|' + config.appSecret)
+        .token(appToken)
         .end(function (err, res) {
           should.not.exist(err);
           done();
