@@ -12,8 +12,9 @@
     "test": "make test"
   },
   "dependencies": {
-    "superagent": "0.9.x",
-    "debug": "*"
+      "sherlock": "*"
+    , "superagent": "0.12.x"
+    , "tea-extend": "0.2.x"
   },
   "devDependencies": {
     "mocha": "*",
