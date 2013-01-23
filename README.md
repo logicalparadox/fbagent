@@ -4,15 +4,15 @@
 
 #### Installation
 
-`facet` is available on [npm](http://npmjs.org).
+`fbagent` is available on [npm](http://npmjs.org).
 
-    npm install facet
+    npm install fbagent
 
 #### License
 
 (The MIT License)
 
-Copyright (c) 2012 Jake Luer <jake@qualiancy.com>
+Copyright (c) 2012-2013 Jake Luer <jake@qualiancy.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
